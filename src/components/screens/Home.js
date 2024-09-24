@@ -8,7 +8,7 @@ export default function Home () {
     return (
         <>
         <div class="bg-gray-70">
-        <h1 class="text-3xl font-bold mt-10 px-10 ">Películas para mirar</h1>
+        <h1 class="text-4xl font-bold mt-10 px-10 ">Películas para mirar</h1>
         </div>
         <div class="bg-gray-70 h-screen  flex ">
             

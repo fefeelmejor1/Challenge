@@ -34,11 +34,11 @@ export function MovieList() {
           {movies.map((movie) => (
             <li
               key={movie.id}
-              class="movie-item flex items-center mb-4 p-4 border border-gray-300 rounded"
+              class="movie-item flex items-center mb-4 p-4 border border-gray-300 rounded text-base shadow-md"
             >
               <img class="w-20 h-20 object-cover border-2" src={movie.poster_path}></img>
                 <div class="grow ml-5">
-                    <h2 class="font-semibold">{movie.title}</h2>
+                    <h2 class="font-semibold text-xl">{movie.title}</h2>
                     <p class="justify-content-center mt-2">
                         Año: {movie.release_date.split("-")[0]}
                     </p>

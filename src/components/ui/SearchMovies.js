@@ -37,18 +37,18 @@ export function SearchMovies() {
 
     return (
         <div class=" mt-10 p-2 rounded-md">
-            <h1 class="text-2xl font-bold  ">Buscar </h1>
+            <h1 class="text-3xl font-bold  ">Buscar </h1>
 
             <div className="flex space-x-4 items-end mt-5">
 
                 <div class="flex-1">
-                    <label class="block text-black font-semibold mb-2">Título</label>
+                    <label class="block text-black font-semibold mb-2 ">Título</label>
                     <input
                         type="text"
                         placeholder="Título de la película"
                         value={title}
                      onChange={(e) => setTitle(e.target.value)}
-                        class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-300"
+                        class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-300 shadow-md"
                     />
                 </div>
 
@@ -59,12 +59,12 @@ export function SearchMovies() {
                         placeholder="Año"
                         value={year}
                         onChange={(e) => setYear(e.target.value)}
-                        class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-300"
+                        class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-300 shadow-md"
                     />
                 </div>
 
 
-                <button onClick={handleSearch}  class=" px-6 py-2 text-xl text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">Buscar</button>
+                <button onClick={handleSearch}  class=" px-6 py-2 text-xl text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 ">Buscar</button>
             </div>
         </div>
     );
