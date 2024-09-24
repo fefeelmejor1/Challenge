@@ -53,7 +53,7 @@ export function SearchMovies() {
                 </div>
 
                 <div class="flex-1">
-                    <label class="block text-black font-semibold mb-2">Año hasta</label>
+                    <label class="block text-black font-semibold mb-2">Año hasta:</label>
                     <input
                         type="number"
                         placeholder="Año"
